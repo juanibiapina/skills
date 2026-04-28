@@ -5,9 +5,9 @@ description: Use when designing interfaces, comparing interface alternatives, ap
 
 # Design Interface
 
-When the user wants to explore alternative interfaces for a chosen deepening candidate. Based on "Design It Twice" (Ousterhout) — your first idea is unlikely to be the best.
+When the user wants to explore alternative interfaces for a chosen deep-module candidate. Based on "Design It Twice" (Ousterhout) — your first idea is unlikely to be the best.
 
-Uses the vocabulary in [LANGUAGE.md](../code-design/SKILL.md) — **module**, **interface**, **seam**, **adapter**, **leverage**.
+Load skill: [code-design](../code-design/SKILL.md).
 
 ## Process
 
@@ -16,7 +16,7 @@ Uses the vocabulary in [LANGUAGE.md](../code-design/SKILL.md) — **module**, **
 Write a user-facing explanation of the problem space for the chosen candidate:
 
 - The constraints any new interface would need to satisfy
-- The dependencies it would rely on, and which category they fall into (see [DEEPENING.md](../deepening/SKILL.md))
+- The dependencies it would rely on, and which category they fall into (see [deep-modules](../deep-modules/SKILL.md))
 - A rough illustrative code sketch to ground the constraints — not a proposal, just a way to make the constraints concrete
 
 Show this to the user, then immediately proceed to Step 2.
@@ -34,7 +34,7 @@ The output for each design is:
 1. Interface (types, methods, params — plus invariants, ordering, error modes)
 2. Usage example showing how callers use it
 3. What the implementation hides behind the seam
-4. Dependency strategy and adapters (see [DEEPENING.md](../deepening/SKILL.md))
+4. Dependency strategy and adapters (see [deep-modules](../deep-modules/SKILL.md))
 5. Trade-offs — where leverage is high, where it's thin
 
 ### 3. Present and compare

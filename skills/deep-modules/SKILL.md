@@ -1,9 +1,9 @@
 ---
-name: deepening
-description: Use when refactoring, deepening modules, choosing seams, classifying dependencies, deciding adapter strategy, or planning tests around a refactor.
+name: deep-modules
+description: Use when refactoring into deep modules, choosing seams, classifying dependencies, deciding adapter strategy, or planning tests around a refactor.
 ---
 
-# Deepening
+# Deep Modules
 
 How to deepen a cluster of shallow modules safely, given its dependencies. The aim is testability and AI-navigability.
 
@@ -21,7 +21,7 @@ Apply the **deletion test** to anything you suspect is shallow: would deleting i
 
 ## Dependency categories
 
-When assessing a candidate for deepening, classify its dependencies. The category determines how the deepened module is tested across its seam.
+When assessing a deep-module candidate, classify its dependencies. The category determines how the deepened module is tested across its seam.
 
 ### 1. In-process
 

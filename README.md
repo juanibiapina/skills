@@ -32,7 +32,10 @@ Workflows define end-to-end tasks. They set the process and output shape.
 | Skill | Type | Purpose |
 | --- | --- | --- |
 | `code-design` | Concept | Shared vocabulary for modules, interfaces, implementation, depth, seams, adapters, leverage, and locality. |
-| `deepening` | Concept | How to deepen shallow modules safely, choose seams, classify dependencies, and plan tests around a refactor. |
-| `review-architecture` | Workflow | Review a whole codebase for deepening opportunities and present candidates. |
-| `design-interface` | Workflow | Explore alternative interfaces for a chosen deepening candidate. |
+| `deep-modules` | Concept | How to turn shallow modules into deep modules safely, choose seams, classify dependencies, and plan tests around a refactor. |
+| `testing` | Concept | Testing principles, mocking guidance, and interface testing. |
+| `refactoring` | Concept | Refactor candidates to look for after tests are green. |
+| `review-architecture` | Workflow | Review a whole codebase for deep-module opportunities and present candidates. |
+| `design-interface` | Workflow | Explore alternative interfaces for a chosen deep-module candidate. |
 | `explore-design-space` | Workflow | Explore a plan or design through questions until decisions are resolved. |
+| `tdd` | Workflow | Test-driven development with a red-green-refactor loop. |
