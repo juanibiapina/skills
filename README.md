@@ -8,6 +8,7 @@ Agent skills that I use every day for software development.
 - Invoking a skill is not an anti-pattern.
 - Not specific to one harness (no subagents or custom tools)
 - Don't include code
+- No duplication. Just like functions don't duplicate code, skills don't duplicate knowledge.
 
 ## Types of Skills
 
@@ -19,13 +20,7 @@ Concepts don't prescribe end-to-end workflows. Pick a workflow skill when you wa
 
 ### Workflows
 
-Workflows define end-to-end tasks. They set the process and output shape.
-
-- Can reference concepts.
-- Should not duplicate knowledge from concepts.
-- Can reference other workflows.
-- Can define its inputs. (can also just get inputs from context)
-- Defines what to produce as output.
+Workflows define end-to-end tasks. They set the process and output shape. They can reference Concepts and shouldn't duplicate knowledge from them. They can define specific required inputs and should define their outputs.
 
 ## Skills
 
