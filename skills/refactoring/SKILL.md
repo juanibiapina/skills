@@ -6,7 +6,7 @@ description: Use when refactoring code, identifying refactor candidates, or impr
 # Refactoring
 
 - **Duplication** → Extract function/class
-- **Long methods** → Break into private helpers (keep tests on public interface)
+- **Long methods / mixed abstraction** → Break into private helpers; see [levels-of-abstraction](../levels-of-abstraction/SKILL.md) for the smells (keep tests on public interface)
 - **Shallow modules** → Combine or deepen
 - **Feature envy** → Move logic to where data lives
 - **Primitive obsession** → Introduce value objects
