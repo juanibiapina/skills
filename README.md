@@ -31,6 +31,7 @@ Workflows define end-to-end tasks. They set the process and output shape. They c
 | `testing` | Concept | Testing principles, mocking guidance, and interface testing. |
 | `refactoring` | Concept | Refactor candidates to look for after tests are green. |
 | `levels-of-abstraction` | Concept | Single level of abstraction per function, composed method, stepdown rule, and smells that signal mixed levels. |
+| `ai-writing-signs` | Concept | Patterns in vocabulary, structure, formatting, tone, and citations that are characteristic of LLM-generated text. |
 | `review-architecture` | Workflow | Review a whole codebase for deep-module opportunities and present candidates. |
 | `design-interface` | Workflow | Explore alternative interfaces for a chosen deep-module candidate. |
 | `explore-design-space` | Workflow | Explore a plan or design through questions until decisions are resolved. |
