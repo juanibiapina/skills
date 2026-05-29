@@ -22,6 +22,10 @@ Concepts don't prescribe end-to-end workflows. Pick a workflow skill when you wa
 
 Workflows define end-to-end tasks. They set the process and output shape. They can reference Concepts and shouldn't duplicate knowledge from them. They can define specific required inputs and should define their outputs.
 
+### References
+
+References document tools, APIs, or CLIs. Commands, endpoints, flags, query patterns, and gotchas.
+
 ## Skills
 
 | Skill | Type | Purpose |
@@ -32,6 +36,7 @@ Workflows define end-to-end tasks. They set the process and output shape. They c
 | `refactoring` | Concept | Refactor candidates to look for after tests are green. |
 | `levels-of-abstraction` | Concept | Single level of abstraction per function, composed method, stepdown rule, and smells that signal mixed levels. |
 | `ai-writing-signs` | Concept | Patterns in vocabulary, structure, formatting, tone, and citations that are characteristic of LLM-generated text. |
+| `gh-notifications` | Reference | GitHub notifications API: listing, thread actions (read vs done vs unsubscribe), PR enrichment, and dependency-bot PR merging. |
 | `review-architecture` | Workflow | Review a whole codebase for deep-module opportunities and present candidates. |
 | `design-interface` | Workflow | Explore alternative interfaces for a chosen deep-module candidate. |
 | `explore-design-space` | Workflow | Explore a plan or design through questions until decisions are resolved. |
