@@ -41,3 +41,4 @@ References document tools, APIs, or CLIs. Commands, endpoints, flags, query patt
 | `design-interface` | Workflow | Explore alternative interfaces for a chosen deep-module candidate. |
 | `explore-design-space` | Workflow | Explore a plan or design through questions until decisions are resolved. |
 | `tdd` | Workflow | Test-driven development with a red-green-refactor loop. |
+| `open-pr` | Workflow | Get changes into a merged PR: branch, commit, create PR, shepherd through CI and review. |
