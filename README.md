@@ -38,7 +38,6 @@ References document tools, APIs, or CLIs. Commands, endpoints, flags, query patt
 | `ai-writing-signs` | Concept | Patterns in vocabulary, structure, formatting, tone, and citations that are characteristic of LLM-generated text. |
 | `gh-notifications` | Reference | GitHub notifications API: listing, thread actions (read vs done vs unsubscribe), PR enrichment, and dependency-bot PR merging. |
 | `review-architecture` | Workflow | Review a whole codebase for deep-module opportunities and present candidates. |
-| `design` | Workflow | Explore several radically different options for any design problem before committing to one. |
-| `explore-design-space` | Workflow | Explore a plan or design through questions until decisions are resolved. |
+| `design` | Workflow | Explore the current state, produce options, recommend one, and detail the chosen solution for any design problem. |
 | `tdd` | Workflow | Test-driven development with a red-green-refactor loop. |
 | `open-pr` | Workflow | Get changes into a merged PR: branch, commit, create PR, shepherd through CI and review. |

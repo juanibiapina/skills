@@ -30,4 +30,4 @@ Do NOT propose interfaces yet. Ask the user: "Which of these would you like to e
 
 ### 3. Explore a candidate
 
-Once the user picks a candidate, load and follow [explore-design-space](../explore-design-space/SKILL.md). Explore the selected deep-module opportunity as the plan or design under review.
+Once the user picks a candidate, load and follow [design](../design/SKILL.md). Design the selected deep-module opportunity, exploring options for it.
